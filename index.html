@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DelishBite | Interactive Food Experience</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="fade-in">🍴 DelishBite</h1>
+    <p class="tagline">Your gateway to delicious experiences</p>
+    <button id="modeToggle">🌙 Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <!-- Animated card section -->
+    <section class="cards">
+      <div class="card" id="card1">
+        <h2>Our Mission</h2>
+        <p>Delivering flavor and joy, one bite at a time.</p>
+      </div>
+      <div class="card" id="card2">
+        <h2>Specials</h2>
+        <p>Explore our rotating menu of chef-curated dishes.</p>
+      </div>
+    </section>
+
+    <!-- Collapsible FAQ -->
+    <section>
+      <h2>FAQ</h2>
+      <div class="faq">
+        <button class="faq-toggle">What is DelishBite?</button>
+        <div class="faq-content">
+          <p>We are a community-driven food hub offering recipes and meal plans.</p>
+        </div>
+      </div>
+      <div class="faq">
+        <button class="faq-toggle">Do you offer delivery?</button>
+        <div class="faq-content">
+          <p>Yes! We partner with trusted local services to deliver your meals fresh.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Form -->
+    <section>
+      <h2>Join Our Newsletter</h2>
+      <form id="signupForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your full name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your email address">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Create a password">
+
+        <button type="submit">Subscribe</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+
+    <!-- Animated Box Trigger -->
+    <section>
+      <h2>Fun Animation</h2>
+      <button id="animateBoxBtn">Animate Box</button>
+      <div id="animatedBox"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 DelishBite | Made with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
